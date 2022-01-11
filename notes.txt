@@ -1,0 +1,2 @@
+#create the project
+$ npx create-react-app dsmovie-react --template typescript --use-npm
