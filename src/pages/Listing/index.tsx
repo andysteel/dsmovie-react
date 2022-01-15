@@ -28,9 +28,13 @@ const Listing = () => {
       })
   },[pageNumber])
 
+  const handleChange = (newPageNumber: number) => {
+    setPageNumber(newPageNumber)
+  }
+
   return (
     <>
-      <Pagination />
+      <Pagination page={moviePage} onChange={handleChange} />
       <div className="container">
         <div className="row">
           {moviePage?.content.map(movie => {
