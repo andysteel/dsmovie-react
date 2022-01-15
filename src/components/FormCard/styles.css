@@ -8,6 +8,14 @@
   width: calc(100% - 20px);
 }
 
+.email-message-error {
+  color: red;
+}
+
+.email-error {
+  border-color: red;
+}
+
 .dsmovie-form-group {
   margin-bottom: 20px;
 }
